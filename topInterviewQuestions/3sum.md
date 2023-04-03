@@ -46,8 +46,8 @@ The main things to know before coding this problem was to understand that all th
 
 The solution does a two-pointer approach, where we take one number at index a, and then check b and c. In the for loop, we check if `a + b + c == 0`. If it is, then we add it to our result, after that we will check if there are duplicates - both for the high and low pointers. We index or decrement to symbolize the skipping part. If the sum is less than 0, we know we need a bigger number for b, hence `low++`, and vice versa for the high. 
 
-Time: O(n^2)
-Space: O(n)
+Time Complexity: O(n^2)
+Space Complexity: O(n)
 
 
 
