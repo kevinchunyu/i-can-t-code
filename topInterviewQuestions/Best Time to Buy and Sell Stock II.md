@@ -28,7 +28,7 @@ class Solution {
 ```   
 
 **Code Explanation:**   
-s
+
 ### I. Understanding the Problem   
   On first intuition, the problem seems to be a little complicated. We are trying to find the best strategy in a given array, and buying and selling stock. This allows the problem to potentially lead us to thinking about something that can get way too overcomplicated. Cleaning out all the noise, it can be generally identified, that this question is simply asking only for the positive profit. Since we do not really need to know the negative profits (ex: if price of day 2 - price of day 1 is negative), we can simply disregard that.   
 ### II. Code explanation    
